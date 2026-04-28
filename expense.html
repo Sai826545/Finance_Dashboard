@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expenses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>Add Expense</h1>
+
+  <input type="text" id="type" placeholder="Expense Type">
+  <input type="number" id="amount" placeholder="Amount">
+
+  <button onclick="addExpense()">Add Expense</button>
+
+  <h3>Available Budget: ₹<span id="balance"></span></h3>
+
+  <button onclick="goExpenseHistory()">Expense History</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
